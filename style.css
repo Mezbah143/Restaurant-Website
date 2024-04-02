@@ -347,6 +347,13 @@ ul li a:hover{
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    
+}
+
+.contact-description{
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 30px;
 }
 
 .form-group input[type="text"],
@@ -364,17 +371,51 @@ ul li a:hover{
 }
 
 .btn {
-    background-color: #007bff;
+    background-color: #db1313;
     color: #fff;
     padding: 10px 20px;
     font-size: 1em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #6fa522;
+    transition: 0.5s;
+}
+
+
+footer {
+    background-color: #beb721;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.social-links a:hover {
+    color: #fcf9f9;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f7f7f7;
+    font-size: 20px;
+
 }
 
 
